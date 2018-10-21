@@ -20,3 +20,4 @@ Dice face value reader, with GUI.
 ## Useful info
 
 This repo uses github's LFS extension, if you want to contribute you should learn more about it [here](https://git-lfs.github.com/).
+Use ```pip install -r requirements.txt``` before running the script.
