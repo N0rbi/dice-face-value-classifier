@@ -21,3 +21,7 @@ Dice face value reader, with GUI.
 
 This repo uses github's LFS extension, if you want to contribute you should learn more about it [here](https://git-lfs.github.com/).
 Use ```pip install -r requirements.txt``` before running the script.
+
+## References
+
+- https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
