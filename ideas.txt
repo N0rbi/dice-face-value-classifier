@@ -1,0 +1,14 @@
+deep learning:
+-object detection (YOLO) for cropping
+-snake eyes (transfer learning)
+-attention learning
+-adatok kimentése sikertelen tanításból
+
+manuál:
+-threshold
+-cirkularitás
+-klaszterizálás (cirkularitás, pozició alapján)
+
+
+
+ÚJ KÉPEK
