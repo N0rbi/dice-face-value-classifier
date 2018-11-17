@@ -1,9 +1,6 @@
 close all;
-A=imread('dice2.jpg');
+A=imread('dice3.jpg');
 figure; imshow(A);
-
-%A = A - sqrt(power(A - mean(A),2));
-%figure; imshow(A);
 B = rgb2gray(A);
 figure; imshow(B);
 A = adapthisteq(B);
@@ -13,17 +10,21 @@ imshow(bw)
 bw = imcomplement(bw);
 bw2 = imfill(bw, 'holes');
 figure; imshow(bw2); title('asd');
-
+bw2 = imcomplement(bw2);
+figure; imshow(bw2); title('asdasd');
 B = edge(bw2, 'Canny');
 se = strel('disk',4);
 B=imdilate(B,se);
 se = strel('disk',3);
 B=imerode(B, se);
 B = bwareaopen(B, 50);
+
+
+
 L = bwlabel(B);
 figure; imshow(B);
-figure; imshow(L == 1)
-title('Object 1')
+%figure; imshow(L == 1)
+%title('Object 1')
 
 
 %B = im2bw(B, graythresh(B));
